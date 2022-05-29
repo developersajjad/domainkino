@@ -1491,3 +1491,16 @@ section {
 .color1{color:#fff;text-shadow:#000 1px 1px;background:#161617;border:none}
 .domain-s-left h1{font-size:3em;line-height:1.2em;font-weight:700;margin:0 0 30px;font-family:'Roboto Condensed',sans-serif;text-transform:uppercase;color:#fff}
 .domain-search-area{background:#F5F5FF;padding:50px 0}
+
+/* domain extension */
+.domain-extension-style{
+  text-align: center;
+  margin-top: 13px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 80px;
+  background-color: #ffffff;
+}
+.domain-left-space{
+  margin-left: 10px;
+}
