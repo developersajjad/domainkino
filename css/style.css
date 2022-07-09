@@ -39,6 +39,10 @@ body {
 	font-smooth: antialiased;
 }
 
+.bangla-font{
+	font-family: 'CharukolaUltraLight', sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -60,7 +64,7 @@ h2 {
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 25px;
 }
 
 h4 {
@@ -78,7 +82,7 @@ h6 {
 p {
 	font-size: 14px;
 	font-family: "Montserrat", sans-serif;
-	color: #ffffff;
+	color: #000000;
 	font-weight: 400;
 	line-height: 26px;
 	margin: 0 0 15px 0;
@@ -175,7 +179,7 @@ ol {
 	font-size: 15px;
 	padding: 14px 30px 12px;
 	color: #ffffff;
-	background: #48ec94;
+	background: #45c26d;
 	text-transform: uppercase;
 	font-weight: 700;
 	border-radius: 50px;
@@ -188,7 +192,7 @@ ol {
 	text-transform: uppercase;
 	display: inline-block;
 	padding: 13px 30px 12px;
-	background: #48ec94;
+	background: #45c26d;
 	border: none;
 	border-radius: 50px;
 }
