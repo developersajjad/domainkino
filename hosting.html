@@ -425,46 +425,19 @@
     </footer>
     <!-- Footer Section End -->
 
-    <!-- tidio chat  -->
-    <script src="//code.tidio.co/rvq7mwgj5faaiuqlxitor9ayzd9hbrhu.js" async></script>
-    <!-- End tidio chat -->
-
-    <!-- remove tidio credit  -->
-        <script>
-            function hideTdo() {
-            var timer = null;
-            var target = document.querySelector('#tidio-chat iframe');
-            if(!target) {
-                if(timer !== null) {
-                clearTimeout(timer);
-                }
-                timer = setTimeout(hideTdo, 500);
-                return;
-            } else {
-                var timer2 = null;
-                var tdo = document.querySelector('#tidio-chat iframe')
-                            .contentDocument
-                            .querySelector('a[href*="tidio.com/powered"]');
-                if(!tdo) {
-                if(timer2 !== null) {
-                    clearTimeout(timer2);
-                }
-                timer2 = setTimeout(hideTdo, 1);
-                return;
-                }
-                document.querySelector('#tidio-chat iframe')
-                .contentDocument
-                .querySelector('a[href*="tidio.com/powered"]')
-                .remove();
-                return true;
-            }
-            }
-    
-            hideTdo();
-    
-            setInterval(hideTdo, 10);
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/62650ab2b0d10b6f3e6f14ee/1g1db3jjt';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
         </script>
-    <!-- end remove tidio credit  -->
+        <!--End of Tawk.to Script-->
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
